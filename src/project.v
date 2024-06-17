@@ -26,9 +26,9 @@ module tt_um_example (
     tt_um_and top(
         .clk(clk),
         .reset(rst_n),
-		.a(ui_in[7:0]),
-		.b(uio_in[7:0]),
-		.Y(uo_out[7:0])
+	.a(ui_in[7:0]),
+	.b(uio_in[7:0]),
+	.Y(uo_out[7:0])
 	);
 
 endmodule
